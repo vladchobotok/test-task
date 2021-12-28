@@ -1,0 +1,25 @@
+
+@
+java:S2885"+Make "currentUrlDate" an instance variable.( İÚb
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ÙÎ‚Ë
+Q
+java:S2696&"6Make the enclosing method "static" or remove this set.(ïñûÿÿÿÿ
+{
+java:S21428"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8üŠÖà/
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(œšõµüÿÿÿÿ
+X
+java:S2696b"6Make the enclosing method "static" or remove this set.(¨™ÇĞşÿÿÿÿ8Ôßáà/
+S
+java:S2696c"6Make the enclosing method "static" or remove this set.(Á­¨8Ôßáà/
+X
+java:S2696u"6Make the enclosing method "static" or remove this set.(è§Î´şÿÿÿÿ8²Ôõà/
+X
+java:S2696v"6Make the enclosing method "static" or remove this set.(–•ò†üÿÿÿÿ8²Ôõà/
+X
+java:S2696x"6Make the enclosing method "static" or remove this set.(—§˜ªúÿÿÿÿ8Øßáà/
+S
+java:S2696z"6Make the enclosing method "static" or remove this set.(ıô¡8²Ôõà/
+X
+java:S2696|"6Make the enclosing method "static" or remove this set.(—§˜ªúÿÿÿÿ8Øßáà/
+c
+java:S1192+"FDefine a constant instead of duplicating this literal "date=" 4 times.(÷ãæ¥8Úßáà/
