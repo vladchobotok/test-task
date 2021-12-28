@@ -24,7 +24,7 @@ public class ReadInput {
     private static double previousValue = 0;
     private static double difference;
 
-    public void readJsonAndCovertToCsv(){
+    public void readJsonAndCovertToCsv(){ //func for reading json files from NBU site, getting info from them and converting them into single CSV file
 
         Scanner scanner = new Scanner(System.in);
         String[] input = scanner.nextLine().split(" ");
@@ -67,11 +67,11 @@ public class ReadInput {
         }
     }
 
-    public String refactorToCsv(String[] data) {
+    public String refactorToCsv(String[] data) { // func for refactoring data for CSV file
         return String.join(",", data);
     }
 
-    public void makeCsv() {
+    public void makeCsv() { // func, which creates the CSV file
         File csvOutputFile = new File("output.csv");
         try (PrintWriter pw = new PrintWriter(csvOutputFile)) {
             csvLines.stream()
@@ -83,10 +83,11 @@ public class ReadInput {
         }
     }
 
-    public class ThreadForMonths extends Thread {
+    public class ThreadForMonths extends Thread { // class, which allows reading json files in multithreading way
 
         @Override
         public void run(){
+
             String dateMonth;
             if(currentUrlDate.get(Calendar.MONTH) < 9){
                 dateMonth = "0" + (currentUrlDate.get(Calendar.MONTH) + 1);
